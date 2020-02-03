@@ -9913,11 +9913,11 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <wire x1="-45.72" y1="127" x2="-109.22" y2="127" width="0.1524" layer="97"/>
 <wire x1="-109.22" y1="127" x2="-109.22" y2="76.2" width="0.1524" layer="97"/>
 <text x="-106.68" y="124.46" size="1.778" layer="97">Voltage Regulator</text>
-<wire x1="93.98" y1="-83.82" x2="-43.18" y2="-83.82" width="0.1524" layer="97"/>
-<wire x1="-43.18" y1="-83.82" x2="-43.18" y2="-215.9" width="0.1524" layer="97"/>
-<wire x1="-43.18" y1="-215.9" x2="93.98" y2="-215.9" width="0.1524" layer="97"/>
-<wire x1="93.98" y1="-215.9" x2="93.98" y2="-83.82" width="0.1524" layer="97"/>
+<wire x1="99.06" y1="-83.82" x2="-43.18" y2="-83.82" width="0.1524" layer="97"/>
+<wire x1="-43.18" y1="-83.82" x2="-43.18" y2="-228.6" width="0.1524" layer="97"/>
+<wire x1="99.06" y1="-228.6" x2="99.06" y2="-83.82" width="0.1524" layer="97"/>
 <text x="-40.64" y="-86.36" size="1.778" layer="97">MCU</text>
+<wire x1="99.06" y1="-228.6" x2="-43.18" y2="-228.6" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="NMOS1" gate="G$1" x="30.48" y="27.94" smashed="yes">
@@ -10076,17 +10076,17 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <attribute name="NAME" x="-24.384" y="-118.745" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-24.384" y="-123.571" size="1.778" layer="96"/>
 </instance>
-<instance part="C19" gate="G$1" x="-35.56" y="-119.38" smashed="yes">
-<attribute name="NAME" x="-34.544" y="-118.745" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-34.544" y="-123.571" size="1.778" layer="96"/>
+<instance part="C19" gate="G$1" x="81.28" y="-208.28" smashed="yes">
+<attribute name="NAME" x="82.296" y="-207.645" size="1.778" layer="95"/>
+<attribute name="VALUE" x="82.296" y="-212.471" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="-35.56" y="-132.08" smashed="yes"/>
+<instance part="GND16" gate="1" x="81.28" y="-220.98" smashed="yes"/>
 <instance part="GND17" gate="1" x="-25.4" y="-132.08" smashed="yes"/>
 <instance part="GND18" gate="1" x="-15.24" y="-132.08" smashed="yes"/>
 <instance part="GND19" gate="1" x="-5.08" y="-132.08" smashed="yes"/>
 <instance part="GND20" gate="1" x="5.08" y="-132.08" smashed="yes"/>
 <instance part="GND21" gate="1" x="15.24" y="-132.08" smashed="yes"/>
-<instance part="SUPPLY3" gate="G$1" x="-35.56" y="-99.06" smashed="yes"/>
+<instance part="SUPPLY3" gate="G$1" x="-25.4" y="-99.06" smashed="yes"/>
 <instance part="SUPPLY8" gate="G$1" x="-15.24" y="-99.06" smashed="yes"/>
 <instance part="SUPPLY9" gate="G$1" x="-5.08" y="-99.06" smashed="yes"/>
 <instance part="SUPPLY10" gate="G$1" x="5.08" y="-99.06" smashed="yes"/>
@@ -10259,9 +10259,15 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-124.46" x2="-35.56" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-213.36" x2="81.28" y2="-215.9" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<label x="-38.1" y="-134.62" size="1.778" layer="95"/>
+<label x="78.74" y="-223.52" size="1.778" layer="95"/>
+<pinref part="U$7" gate="G$1" pin="BOOT0"/>
+<wire x1="81.28" y1="-215.9" x2="81.28" y2="-218.44" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-187.96" x2="91.44" y2="-187.96" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-187.96" x2="91.44" y2="-215.9" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-215.9" x2="81.28" y2="-215.9" width="0.1524" layer="91"/>
+<junction x="81.28" y="-215.9"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="2"/>
@@ -10474,20 +10480,6 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <label x="-104.14" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="VDD@1"/>
-<wire x1="33.02" y1="-106.68" x2="-25.4" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="-106.68" x2="-35.56" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-106.68" x2="-25.4" y2="-116.84" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-106.68"/>
-<pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="-35.56" y1="-106.68" x2="-35.56" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="-106.68" x2="-35.56" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="-35.56" y="-106.68"/>
-<pinref part="SUPPLY3" gate="G$1" pin="+V"/>
-<label x="-38.1" y="-96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="G$1" pin="VDD@2"/>
 <wire x1="33.02" y1="-109.22" x2="-15.24" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="C17" gate="G$1" pin="1"/>
@@ -10525,6 +10517,16 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <junction x="15.24" y="-116.84"/>
 <pinref part="SUPPLY11" gate="G$1" pin="+V"/>
 <label x="12.7" y="-96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="VDD@1"/>
+<wire x1="33.02" y1="-106.68" x2="-25.4" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="-25.4" y1="-106.68" x2="-25.4" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="-106.68" x2="-25.4" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="-25.4" y="-106.68"/>
+<pinref part="SUPPLY3" gate="G$1" pin="+V"/>
+<label x="-27.94" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10751,6 +10753,14 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <wire x1="-63.5" y1="116.84" x2="-63.5" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="SW1"/>
 <wire x1="-63.5" y1="104.14" x2="-66.04" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="VCAP1"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-200.66" x2="81.28" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-200.66" x2="81.28" y2="-205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
