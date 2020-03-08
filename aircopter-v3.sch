@@ -10860,9 +10860,9 @@ Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00
 <label x="-106.68" y="-50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="PA1"/>
-<wire x1="78.74" y1="-96.52" x2="86.36" y2="-96.52" width="0.1524" layer="91"/>
-<label x="81.28" y="-96.52" size="1.778" layer="95"/>
+<pinref part="U$7" gate="G$1" pin="PB1"/>
+<wire x1="78.74" y1="-142.24" x2="86.36" y2="-142.24" width="0.1524" layer="91"/>
+<label x="83.82" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
