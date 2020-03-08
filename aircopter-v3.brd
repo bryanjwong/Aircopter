@@ -2264,32 +2264,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="24.4484" y="10.0584" extent="1-16" drill="0.35"/>
 <wire x1="35.6362" y1="18.0458" x2="34.2646" y2="18.0458" width="0.3048" layer="1"/>
 <via x="34.2646" y="18.0458" extent="1-16" drill="0.35"/>
-<polygon width="0.3048" layer="16" thermals="no">
-<vertex x="42.7482" y="21.463"/>
-<vertex x="38.608" y="21.463"/>
-<vertex x="38.608" y="20.5232"/>
-<vertex x="38.608" y="18.7706"/>
-<vertex x="32.9946" y="18.7706"/>
-<vertex x="14.0462" y="18.7706"/>
-<vertex x="14.0462" y="28.194"/>
-<vertex x="47.6758" y="28.194"/>
-<vertex x="47.6758" y="18.4912"/>
-<vertex x="47.6758" y="-0.2032"/>
-<vertex x="34.163" y="-0.2032"/>
-<vertex x="-0.2286" y="-0.2032"/>
-<vertex x="-0.2286" y="13.1064"/>
-<vertex x="-0.2286" y="28.194"/>
-<vertex x="13.589" y="28.194"/>
-<vertex x="13.589" y="18.3388"/>
-<vertex x="17.272" y="18.3388"/>
-<vertex x="39.0652" y="18.3388"/>
-<vertex x="39.0652" y="19.5326"/>
-<vertex x="39.0652" y="20.9804"/>
-<vertex x="42.1132" y="20.9804"/>
-<vertex x="47.1932" y="20.9804"/>
-<vertex x="47.1932" y="21.1328"/>
-<vertex x="47.1932" y="21.4884"/>
-</polygon>
 <wire x1="38.2152" y1="14.605" x2="37.1602" y2="14.605" width="0.3048" layer="1"/>
 <via x="37.1602" y="14.605" extent="1-16" drill="0.35"/>
 <wire x1="24.4484" y1="11.0998" x2="24.4484" y2="10.0584" width="0.3048" layer="1"/>
@@ -2297,6 +2271,42 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="20.262" y="17.2466" extent="1-16" drill="0.35"/>
 <wire x1="13.2724" y1="22.225" x2="12.192" y2="22.225" width="0.3048" layer="1"/>
 <via x="12.192" y="22.225" extent="1-16" drill="0.35"/>
+<polygon width="0.3048" layer="16" thermals="no">
+<vertex x="43.0784" y="21.2598"/>
+<vertex x="41.8338" y="21.2598"/>
+<vertex x="41.8338" y="21.463"/>
+<vertex x="38.608" y="21.463"/>
+<vertex x="38.608" y="20.3962"/>
+<vertex x="38.608" y="18.7198"/>
+<vertex x="22.733" y="18.7198"/>
+<vertex x="14.0462" y="18.7198"/>
+<vertex x="14.0462" y="23.368"/>
+<vertex x="14.0462" y="28.194"/>
+<vertex x="24.3586" y="28.194"/>
+<vertex x="47.8028" y="28.194"/>
+<vertex x="47.8028" y="20.6756"/>
+<vertex x="47.8028" y="-0.2032"/>
+<vertex x="37.084" y="-0.2032"/>
+<vertex x="-0.2032" y="-0.2032"/>
+<vertex x="-0.2032" y="14.0462"/>
+<vertex x="-0.2032" y="28.194"/>
+<vertex x="13.5636" y="28.194"/>
+<vertex x="13.6144" y="28.194"/>
+<vertex x="13.6144" y="27.8892"/>
+<vertex x="13.6144" y="18.2372"/>
+<vertex x="15.8496" y="18.2372"/>
+<vertex x="39.0398" y="18.2372"/>
+<vertex x="39.0398" y="18.6944"/>
+<vertex x="39.0398" y="21.0058"/>
+<vertex x="39.4208" y="21.0058"/>
+<vertex x="41.8592" y="21.0058"/>
+<vertex x="41.8592" y="21.1836"/>
+<vertex x="43.1038" y="21.1836"/>
+<vertex x="43.1038" y="20.9804"/>
+<vertex x="47.3964" y="20.9804"/>
+<vertex x="47.3964" y="21.4884"/>
+<vertex x="43.0784" y="21.4884"/>
+</polygon>
 </signal>
 <signal name="N$2">
 <contactref element="NMOS2" pad="3"/>
